@@ -1,0 +1,30 @@
+{
+    "vertices": [
+        "d",
+        "c",
+        "a",
+        "b"
+    ],
+    "arcs": [
+        {
+            "from": "a",
+            "to": "b",
+            "order": 1
+        },
+        {
+            "from": "b",
+            "to": "c",
+            "order": 1
+        },
+        {
+            "from": "a",
+            "to": "c",
+            "order": 2
+        },
+        {
+            "from": "c",
+            "to": "d",
+            "order": 1
+        }
+    ]
+}
